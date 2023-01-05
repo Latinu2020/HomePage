@@ -8,7 +8,7 @@ with open(css_file) as f:
     st.markdown("<style>{}</style".format(f.read()), unsafe_allow_html=True)
 
     form = st.form("my_form")
-    form.text_input('Your email address')
+    form.text_input('Your email address',"<style>{}</style".format(f.read()), unsafe_allow_html=True)
     form.text_input('Sent email address')
     form.text_input('Subject')
     form.text_area('Description Email')
