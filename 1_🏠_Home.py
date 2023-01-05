@@ -5,7 +5,7 @@ st.set_page_config(
     page_icon="👋",
 )
 
-st.write("# Welcome to My Page 💙🍀♋")
+st.write("# Welcome!!💙🍀♋")
 
 st.sidebar.success("Home")
 st.success('This is a success message!', icon="✅")
