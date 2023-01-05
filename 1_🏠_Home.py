@@ -51,4 +51,11 @@ with col2:
         file_name=resume_file.name,
         mime="application/octet-stream"
     )
-    st.write("📨",EMAIL)   
+    st.write("📨",EMAIL) 
+
+####--SOCIAL LINKS--
+st.write("#")
+cols= st.columns(len(SOCIAL_MEDIA))
+for index, (platform,link) in enumerate(SOCIAL_MEDIA.items()):
+    cols[index].write(f"[{platform}]({link})")
+
