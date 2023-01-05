@@ -1,7 +1,11 @@
+from pathlib import Path
 import streamlit as st
 
-with open('style.css') as f:
-    st.markdown(f'<style>{f.read()}</style', unsafe_allow_html=True)
+
+current_dir= Path(__file__).parent if "__file__"in locals() else Path.cwd()
+css_file=current_dir / "styles" / "style.css"
+with open(css_file) as f:
+    st.markdown("<style>{}</style".format(f.read()), unsafe_allow_html=True)
 
 form = st.form("my_form")
 form.text_input('Your email address')
