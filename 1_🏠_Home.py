@@ -10,6 +10,7 @@ st.write("# Welcome to My Page 💙")
 st.sidebar.success("Home")
 st.info('This is a purely informational message', icon="ℹ️")
 st.success('This is a success message!', icon="✅")
+st.warning('This is a warning', icon="⚠️")
 
 st.markdown(
     """
