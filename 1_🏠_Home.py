@@ -8,8 +8,13 @@ st.set_page_config(
 st.write("# Welcome!!💙🍀♋")
 
 st.sidebar.success("Home")
-st.success('This is a success message!', icon="✅")
-
+col1, col2, col3 = st.columns(3)
+with col1:
+    st.success('YOUTUBE', icon="✅")
+with col2:
+    st.success('FACEBOOK', icon="✅")
+with col3:
+    st.success('LINKELIN', icon="✅")    
 st.markdown(
     """
     Streamlit is an open-source app framework built specifically for
