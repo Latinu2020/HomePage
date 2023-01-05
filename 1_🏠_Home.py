@@ -16,13 +16,6 @@ with col2:
 with col3:
     st.success('LINKELIN', icon="⬆️")    
 
-with open("flower.png", "rb") as file:
-    btn = st.download_button(
-            label="Download image",
-            data=file,
-            file_name="flower.png",
-            mime="image/png"
-          )
 st.markdown(
     """
     Streamlit is an open-source app framework built specifically for
