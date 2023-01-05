@@ -8,6 +8,7 @@ st.set_page_config(
 st.write("# Welcome to My Page 💙")
 
 st.sidebar.success("Home")
+st.info('This is a purely informational message', icon="ℹ️")
 
 st.markdown(
     """
