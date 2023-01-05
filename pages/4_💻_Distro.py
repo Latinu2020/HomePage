@@ -21,7 +21,7 @@ st.set_page_config(page_title="Distro", page_icon="📊")
 st.title("# Distro")
 st.markdown("A set of software components, often open source, that have been packaged into a larger product or component for distribution to end-users.")
 
-col1,col2,col3,col4,col5=st.columns(5,gap="small")
+col1,col2,col3,col4,col5=st.columns(5)
 with col1:
     st.image(linux_pic_read, width=230)
 with col2:
