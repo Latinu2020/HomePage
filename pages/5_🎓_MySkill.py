@@ -18,8 +18,8 @@ st.markdown("####.")
 col1,col2=st.columns(2)
 with col1:
     st.subheader("UDEMY")
-    st.image(udemy_pic_read, width=200)
+    st.image(udemy_pic_read, width=350)
 with col2:
     st.subheader("AUTODESK UNIVERSITY")
-    st.image(autodesk_pic_read, width=200)
+    st.image(autodesk_pic_read, width=350)
    
