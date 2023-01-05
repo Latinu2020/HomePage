@@ -1,5 +1,8 @@
-[theme]
-backgroundColor="#b5d5f5"
-font="Droid Sans Mono"
 [server]
 port = 80
+[theme]
+primaryColor="#f6f6c9"
+backgroundColor="#b5d5f5"
+secondaryBackgroundColor="#F0F2F6"
+textColor="#b5d8f6"
+font="Droid Sans Mono"
