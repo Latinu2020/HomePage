@@ -23,12 +23,17 @@ st.markdown("A set of software components, often open source, that have been pac
 
 col1,col2,col3,col4,col5=st.columns(5)
 with col1:
-    st.image(linux_pic_read, width=150)
+    st.header("GNU LINUX")
+    st.image(linux_pic_read, width=100)
 with col2:
-    st.image(unix1_pic_read, width=150)
+    st.header("FreeBSD")
+    st.image(unix1_pic_read, width=100)
 with col3:
-    st.image(unix2_pic_read, width=150)
+    st.header("OpenBSD")
+    st.image(unix2_pic_read, width=100)
 with col4:
-    st.image(unix3_pic_read, width=150)
+    st.header("NetBSD")
+    st.image(unix3_pic_read, width=100)
 with col5:
-    st.image(windows_pic_read, width=150)    
+    st.header("Microsoft Windows")
+    st.image(windows_pic_read, width=100)    
