@@ -63,21 +63,19 @@ for index, (platform,link) in enumerate(SOCIAL_MEDIA.items()):
 st.write("#")
 st.subheader("Experience & Qualifications")
 st.write(
-    """
+     """
     -###############11111111111111111111111111
     -###########222222
     -##############################333
-
     """
 )
 #---SKILLS--
 st.write("#")
 st.subheader("Hard Skills")
 st.write(
-    """
+     """
     -✅###############11111111111111111111111111
     -✅###########222222222222222222222222222222
     -✅##############################33333333333
-
     """
 )
