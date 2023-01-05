@@ -1,35 +1,30 @@
+from pathlib import Path
 import streamlit as st
+from PIL import Image
 
-st.set_page_config(
-    page_title="Home",
-    page_icon="👋",
-)
+###########Path Settings
 
-st.write("# Welcome!!💙🍀♋")
+current_dir= Path(__file__).parent if "__file__"in locals() else Path.cwd()
+css_file=current_dir / "styles" / "main.css"
+resume_file = current_dir / "assets"/ "CV.pdf"
+profile_pic= current_dir / "assets" / "profile-pic.png"
 
-st.sidebar.success("Home")
-col1, col2, col3 = st.columns(3)
-with col1:
-    st.success('YOUTUBE', icon="⬆️")
-with col2:
-    st.success('FACEBOOK', icon="⬆️")
-with col3:
-    st.success('LINKELIN', icon="⬆️")    
-
-st.markdown(
-    """
-    Streamlit is an open-source app framework built specifically for
-    Machine Learning and Data Science projects.
-    **👈 Select a demo from the sidebar** to see some examples
-    of what Streamlit can do!
-    ### Want to learn more?
-    - Check out [streamlit.io](https://streamlit.io)
-    - Jump into our [documentation](https://docs.streamlit.io)
-    - Ask a question in our [community
-        forums](https://discuss.streamlit.io)
-    ### See more complex demos
-    - Use a neural net to [analyze the Udacity Self-driving Car Image
-        Dataset](https://github.com/streamlit/demo-self-driving)
-    - Explore a [New York City rideshare dataset](https://github.com/streamlit/demo-uber-nyc-pickups)
+####---General Settings---
+PAGE_TITLE ="DIGITAL CV | FLORIN ROTARU"
+PAGE_ICON=":wave:"
+NAME="FLORIN ROTARU"
+DESCRIPTION= """
+BIM Specialist, assisting enterpries.
 """
-)
+EMAIL = "florin_rot@yahoo.com"
+SOCIAL_MEDIA= {
+    "YouTube": "https://www.youtube.com/@florinr8921",
+    "LinkedIn": "https://www.linkedin.com/"
+}
+PROJECTS={
+    "✔️ BIM Workflows":"https://latinu2020-homepage-1--home-csvkf3.streamlit.app/BIM"
+}
+
+st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
+
+st.title("Hello there!")
