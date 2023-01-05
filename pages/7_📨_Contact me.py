@@ -7,4 +7,4 @@ form.text_input('Subject')
 form.text_area('Description Email')
 
 # Now add a submit button to the form:
-form.form_submit_button("Submit")
+form.form_submit_button("Submit",  style="background-color: #DD3300; color:#eeffee; border-radius: 0.75rem;")
