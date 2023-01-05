@@ -27,7 +27,7 @@ PROJECTS={
 
 st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
 
-st.title("Hello there!")
+#st.title("Hello there!")
 
 #--LOAD CSS, PDF & PROFIL PIC
 
