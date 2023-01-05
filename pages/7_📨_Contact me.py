@@ -1,13 +1,24 @@
-import streamlit as st
+import streamlit as st  # pip install streamlit
 
-with st.form("my_form"):
-   st.write("Inside the form")
-   slider_val = st.slider("Form slider")
-   checkbox_val = st.checkbox("Form checkbox")
+st.header(":mailbox: Get In Touch With Me!")
 
-   # Every form must have a submit button.
-   submitted = st.form_submit_button("Submit")
-   if submitted:
-       st.write("slider", slider_val, "checkbox", checkbox_val)
 
-st.write("Outside the form")
+contact_form = """
+<form action="https://formsubmit.co/YOUREMAIL@EMAIL.COM" method="POST">
+     <input type="hidden" name="_captcha" value="false">
+     <input type="text" name="name" placeholder="Your name" required>
+     <input type="email" name="email" placeholder="Your email" required>
+     <textarea name="message" placeholder="Your message here"></textarea>
+     <button type="submit">Send</button>
+</form>
+"""
+
+st.markdown(contact_form, unsafe_allow_html=True)
+
+# Use Local CSS File
+def local_css(file_name):
+    with open(file_name) as f:
+        st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
+
+
+local_css("style/style.css")
