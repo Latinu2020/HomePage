@@ -9,7 +9,7 @@ current_dir= Path(__file__).parent if "__file__"in locals() else Path.cwd()
 udemy_pic= current_dir / "skill" / "udemy.jpg"
 udemy_pic_read=Image.open(udemy_pic)
 autodesk_pic= current_dir / "skill" / "autodesk.png"
-autodesk_pic_read=Image.open(autodesk_pic_read)
+autodesk_pic_read=Image.open(autodesk_pic)
 st.set_page_config(page_title="Skill", page_icon="📊")
 
 st.title("# Skill")
