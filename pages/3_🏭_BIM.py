@@ -1,4 +1,14 @@
+from pathlib import Path
 import streamlit as st
+from PIL import Image
+
+
+###########Path Settings
+
+current_dir= Path(__file__).parent if "__file__"in locals() else Path.cwd()
+B_pic= current_dir / "BIM" / "BIM01.png"
+B_pic_read=Image.open(B_pic)
+
 
 st.set_page_config(page_title="BIM", page_icon="🌍",layout="wide")
 
@@ -14,3 +24,9 @@ st.markdown(
     """
 )
 
+col1, col2, col3,col4=(4)
+
+with col1:
+    st.markdown("Level of Project")
+    st.image(B_pic_read)
+    
