@@ -1,7 +1,10 @@
+import json
+
 from pathlib import Path
 import streamlit as st
 from PIL import Image
-
+from streamlit_lottie import st_lottie
+import requests
 ###########Path Settings
 
 current_dir= Path(__file__).parent if "__file__"in locals() else Path.cwd()
@@ -26,6 +29,33 @@ PROJECTS={
 }
 
 st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
+#####Lottie
+def load_lottiefile(filepath: str):
+    with open(filepath, "r") as f:
+        return json.load(f)
+
+
+def load_lottieurl(url: str):
+    r= requests.get(url)
+    if r.status_code !=200:
+        return None
+    return r.json()
+
+lottie_coding = load_lottiefile("coding.json")  # replace link to local lottie file
+lottie_hello = load_lottieurl("https://assets9.lottiefiles.com/packa...")
+
+st_lottie(
+    lottie_hello,
+    speed=1,
+    reverse=False,
+    loop=True,
+    quality="low", # medium ; high
+    renderer="svg", # canvas
+    height=None,
+    width=None,
+    key=None,
+)
+
 
 #--LOAD CSS, PDF & PROFIL PIC
 
