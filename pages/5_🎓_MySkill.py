@@ -63,11 +63,10 @@ c11_pic_read=Image.open(c11_pic)
 
 col3,col4=st.columns(2,gap="large")
 with col3:
-    expander = st.expander("👉 See Udemy Certification")
+    expander = st.expander("👉 SEE UDEMY CERTIFICATION")
     expander.write("""
-    The chart above shows some numbers I picked for you.
-    I rolled actual dice for these, so they're *guaranteed* to
-    be random.
+    BELOW YOU CAN FIND MY CERTIFICATES OBTAINED
+    THROUGH COURSES PURCHASED FROM UDEMY
     """)
     expander.image(c1_pic_read,width=550)
     expander.image(c2_pic_read,width=550)
