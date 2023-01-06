@@ -36,4 +36,12 @@ with col2:
         Advanced Certified Professional- Validates more advanced skills, including complex workflow and design challenges. 
         Designed for students seeking a competitive advantage in a specific product area.</span>""",unsafe_allow_html=True)
 st.header("My Certification")
-st.markdown("----")   
+st.markdown("----")
+
+expander = st.expander("See explanation")
+expander.write(\"\"\"
+    The chart above shows some numbers I picked for you.
+    I rolled actual dice for these, so they're *guaranteed* to
+    be random.
+\"\"\")
+expander.image("https://static.streamlit.io/examples/dice.jpg")   
