@@ -5,7 +5,7 @@ import streamlit as st  # pip install streamlit
 current_dir= Path(__file__).parent if "__file__"in locals() else Path.cwd()
 css_file=current_dir / "style" / "style.css"
 
-st.header(":mailbox: Get In Touch With Me!")
+st.header("📫  Contact me by email!")
 
 
 contact_form = """
