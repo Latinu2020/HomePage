@@ -22,4 +22,5 @@ with col1:
 with col2:
     st.subheader("AUTODESK UNIVERSITY")
     st.image(autodesk_pic_read, width=350)
-   
+st.title("My Certification")
+st.markdown("----")   
