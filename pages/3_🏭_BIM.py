@@ -8,7 +8,8 @@ from PIL import Image
 current_dir= Path(__file__).parent if "__file__"in locals() else Path.cwd()
 B_pic= current_dir / "BIM" / "BIM01.png"
 B_pic_read=Image.open(B_pic)
-
+C_pic= current_dir / "BIM" / "BIM02.png"
+C_pic_read=Image.open(C_pic)
 
 st.set_page_config(page_title="BIM", page_icon="🌍",layout="wide")
 
@@ -29,4 +30,6 @@ col1,col2=st.columns(2,gap="large")
 with col1:
     st.markdown("<h1 style='text-align: center; color: #BFDAF7; font-size: 20px; text-decoration-line:'>Level of Project</h1>",unsafe_allow_html=True)
     st.image(B_pic_read)
-    
+with col2:
+    st.markdown("<h1 style='text-align: center; color: #BFDAF7; font-size: 20px; text-decoration-line:'>BIM Levels</h1>",unsafe_allow_html=True)
+    st.image(C_pic_read)    
