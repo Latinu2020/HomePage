@@ -26,9 +26,6 @@ PROJECTS={
 }
 
 st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
-"""### Welcome!"""
-st.markdown("![Alt Text](https://media.giphy.com/media/LR5ZBwZHv02lmpVoEU/giphy-downsized-large.gif)")
-#st.title("Hello there!")
 
 #--LOAD CSS, PDF & PROFIL PIC
 
