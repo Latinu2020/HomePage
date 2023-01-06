@@ -60,6 +60,16 @@ c10_pic= current_dir / "skill" / "10.jpg"
 c10_pic_read=Image.open(c10_pic)
 c11_pic= current_dir / "skill" / "11.jpg"
 c11_pic_read=Image.open(c11_pic)
+####prepared certificate Autodesk
+d1_pic= current_dir / "skill" / "001.jpg"
+d1_pic_read=Image.open(d1_pic)
+d2_pic= current_dir / "skill" / "002.jpg"
+d2_pic_read=Image.open(d2_pic)
+d3_pic= current_dir / "skill" / "003.jpg"
+d3_pic_read=Image.open(d3_pic)
+d4_pic= current_dir / "skill" / "004.jpg"
+d4_pic_read=Image.open(d4_pic)
+
 
 col3,col4=st.columns(2,gap="large")
 with col3:
@@ -80,11 +90,13 @@ with col3:
     expander.image(c10_pic_read,width=550)
     expander.image(c11_pic_read,width=550)
 with col4:
-    expander = st.expander("See Autodesk Certification 👈")
+    expander = st.expander("SEE AUTODESK CERTIFICATION 👈")
     expander.write("""
-    The chart above shows some numbers I picked for you.
-    I rolled actual dice for these, so they're *guaranteed* to
-    be random.
+    BELOW YOU CAN FIND MY CERTIFICATES OBTAINED
+    THROUGH COURSES PURCHASED FROM AUTODESK
     """)
-    expander.image("https://static.streamlit.io/examples/dice.jpg") 
+    expander.image(d1_pic_read,width=550)
+    expander.image(d2_pic_read,width=550)
+    expander.image(d3_pic_read,width=550)
+    expander.image(d4_pic_read,width=550)
            
