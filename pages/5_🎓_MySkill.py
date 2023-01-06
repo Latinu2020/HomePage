@@ -20,12 +20,10 @@ with col1:
     container1=st.container()
     container1.subheader("UDEMY")
     container1.image(udemy_pic_read, width=400)
-    container1.text("""<span style="word-wrap:break-word;">
-        -Udemy is a platform that allows instructors to build online courses on their preferred topics. 
+    container1.markdown("""<span style="word-wrap:break-word;">Udemy is a platform that allows instructors to build online courses on their preferred topics. 
         -Using Udemy's course development tools, instructors can upload videos, source code for developers,
         PowerPoint presentations, PDFs, audio, ZIP files and any other content that learners might find helpful.
-        -Instructors can also engage and interact with users via online discussion boards.</span>
-       """,unsafe_allow_html=True)
+        -Instructors can also engage and interact with users via online discussion boards.</span>""",unsafe_allow_html=True)
 with col2:
     container2=st.container()
     container2.subheader("AUTODESK UNIVERSITY")
