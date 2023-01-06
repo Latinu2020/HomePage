@@ -1,4 +1,9 @@
+from pathlib import Path
 import streamlit as st  # pip install streamlit
+
+
+current_dir= Path(__file__).parent if "__file__"in locals() else Path.cwd()
+css_file=current_dir / "style" / "style.css"
 
 st.header(":mailbox: Get In Touch With Me!")
 
@@ -16,9 +21,5 @@ contact_form = """
 st.markdown(contact_form, unsafe_allow_html=True)
 
 # Use Local CSS File
-def local_css(file_name):
-    with open(file_name) as f:
-        st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
-
-
-local_css("style/style.css")
+with open(css_file) as f:
+    st.markdown("<style>{}</style".format(f.read()), unsafe_allow_html=True)
