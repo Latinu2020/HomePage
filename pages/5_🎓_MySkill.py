@@ -13,7 +13,7 @@ autodesk_pic_read=Image.open(autodesk_pic)
 st.set_page_config(page_title="Skill", page_icon="📊")
 
 st.title("# Skill")
-st.markdown("####.")
+st.markdown("----")
 
 col1,col2=st.columns(2)
 with col1:
