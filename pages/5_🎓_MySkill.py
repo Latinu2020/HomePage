@@ -19,6 +19,13 @@ col1,col2=st.columns(2)
 with col1:
     st.subheader("UDEMY")
     st.image(udemy_pic_read, width=350)
+    st.markdown("""
+        Udemy is a platform that allows instructors to build online courses on their preferred topics. 
+        Using Udemy's course development tools, instructors can upload videos, source code for developers,
+        PowerPoint presentations, PDFs, audio, ZIP files and any other content that learners might find helpful.
+        Instructors can also engage and interact with users via online discussion boards.
+       
+    """)
 with col2:
     st.subheader("AUTODESK UNIVERSITY")
     st.image(autodesk_pic_read, width=350)
