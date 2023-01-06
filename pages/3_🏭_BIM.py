@@ -27,6 +27,6 @@ st.markdown(
 col1,col2=st.columns(2,gap="large")
 
 with col1:
-    st.markdown("Level of Project")
+    st.markdown("<h1 style='text-align: center; color: #BFDAF7; font-size: 20px; text-decoration-line:'>Level of Project</h1>",unsafe_allow_html=True)
     st.image(B_pic_read)
     
