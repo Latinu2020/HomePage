@@ -11,8 +11,8 @@ udemy_pic_read=Image.open(udemy_pic)
 autodesk_pic= current_dir / "skill" / "autodesk.jpg"
 autodesk_pic_read=Image.open(autodesk_pic)
 st.set_page_config(page_title="Skill", page_icon="📊",layout="wide")
-st.markdown("----")
-st.title("# Skill")
+
+st.title("<div style="text-align: center">Skill/div>")
 st.markdown("----")
 
 col1,col2=st.columns(2,gap="large")
