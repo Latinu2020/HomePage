@@ -1,26 +1,24 @@
-from pathlib import Path
-import streamlit as st
+import streamlit as st  # pip install streamlit
+
+st.header(":mailbox: Get In Touch With Me!")
 
 
-st.set_page_config(page_title="Contact me", page_icon="✉️")
-st.title('Contact me')
-
-contact_form="""
+contact_form = """
 <form action="https://formsubmit.co/florin_rot@yahoo.com" method="POST">
-    <input type="hidden" name="_captcha" value="false">
-    <input type="text" name="name" placeholder="Your name" required>
-    <input type="email" name="email" placeholder="Your email" required>
-    <textarea name="message" placeholder="Your message here"></textarea>
-    <button type="submit">Send</button>
+     <input type="hidden" name="_captcha" value="false">
+     <input type="text" name="name" placeholder="Your name" required>
+     <input type="email" name="email" placeholder="Your email" required>
+     <textarea name="message" placeholder="Your message here"></textarea>
+     <button type="submit">Send</button>
 </form>
 """
 
 st.markdown(contact_form, unsafe_allow_html=True)
 
-#use local css File
+# Use Local CSS File
 def local_css(file_name):
     with open(file_name) as f:
-        st.markdown(f"<style>{f.read()}</style", unsafe_allow_html=True)
+        st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
-local_css("style/style.css")        
 
+local_css("/pages/style/style.css")
