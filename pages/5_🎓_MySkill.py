@@ -61,13 +61,13 @@ c10_pic_read=Image.open(c10_pic)
 c11_pic= current_dir / "skill" / "11.jpg"
 c11_pic_read=Image.open(c11_pic)
 ####prepared certificate Autodesk
-d1_pic= current_dir / "skill" / "001.jpg"
+d1_pic= current_dir / "skill" / "001.jpeg"
 d1_pic_read=Image.open(d1_pic)
-d2_pic= current_dir / "skill" / "002.jpg"
+d2_pic= current_dir / "skill" / "002.jpeg"
 d2_pic_read=Image.open(d2_pic)
-d3_pic= current_dir / "skill" / "003.jpg"
+d3_pic= current_dir / "skill" / "003.jpeg"
 d3_pic_read=Image.open(d3_pic)
-d4_pic= current_dir / "skill" / "004.jpg"
+d4_pic= current_dir / "skill" / "004.jpeg"
 d4_pic_read=Image.open(d4_pic)
 
 
