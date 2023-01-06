@@ -10,7 +10,7 @@ udemy_pic= current_dir / "skill" / "udemy.jpg"
 udemy_pic_read=Image.open(udemy_pic)
 autodesk_pic= current_dir / "skill" / "autodesk.jpg"
 autodesk_pic_read=Image.open(autodesk_pic)
-st.set_page_config(page_title="Skill", page_icon="📊")
+st.set_page_config(page_title="Skill", page_icon="📊",layout="wide")
 
 st.title("# Skill")
 st.markdown("----")
@@ -22,5 +22,5 @@ with col1:
 with col2:
     st.subheader("AUTODESK UNIVERSITY")
     st.image(autodesk_pic_read, width=350)
-st.title("My Certification")
+st.header("My Certification")
 st.markdown("----")   
