@@ -16,8 +16,7 @@ st.markdown("<h1 style='text-align: center; color: red; font-size: 70px; text-de
 st.markdown("----")
 
 col1,col2=st.columns(2,gap="large")
-with col1:
-    
+with col1:  
     st.subheader("UDEMY")
     st.image(udemy_pic_read, width=350)
     st.markdown("""<span style="word-wrap:break-word;">Udemy is a platform that allows instructors to build online courses on their preferred topics. 
@@ -38,10 +37,20 @@ with col2:
 st.header("My Certification")
 st.markdown("----")
 
-expander = st.expander("See explanation")
-expander.write("""
+col3,col4=st.columns(2,gap="large")
+with col3:
+    expander = st.expander("See Udemy Certification")
+    expander.write("""
     The chart above shows some numbers I picked for you.
     I rolled actual dice for these, so they're *guaranteed* to
     be random.
-""")
-expander.image("https://static.streamlit.io/examples/dice.jpg")   
+    """)
+    expander.image("https://static.streamlit.io/examples/dice.jpg")
+with col4:
+    expander = st.expander("See Autodesk Certification")
+    expander.write("""
+    The chart above shows some numbers I picked for you.
+    I rolled actual dice for these, so they're *guaranteed* to
+    be random.
+    """)
+    expander.image("https://static.streamlit.io/examples/dice.jpg")          
