@@ -10,7 +10,8 @@ B_pic= current_dir / "BIM" / "BIM01.png"
 B_pic_read=Image.open(B_pic)
 C_pic= current_dir / "BIM" / "BIM02.png"
 C_pic_read=Image.open(C_pic)
-
+D_pic= current_dir / "BIM" / "BIM03.png"
+D_pic_read=Image.open(D_pic)
 st.set_page_config(page_title="BIM", page_icon="🌍",layout="wide")
 
 st.markdown("<h1 style='text-align: center; color: MediumAquamarine; font-size: 70px; text-decoration-line:'>BIM</h1>",unsafe_allow_html=True)
@@ -25,7 +26,7 @@ st.markdown(
     """
 )
 
-col1,col2=st.columns(2,gap="large")
+col1,col2,col3=st.columns(3,gap="large")
 
 with col1:
     st.markdown("<h1 style='text-align: center; color: #BFDAF7; font-size: 20px; text-decoration-line:'>Level of Project</h1>",unsafe_allow_html=True)
@@ -33,3 +34,6 @@ with col1:
 with col2:
     st.markdown("<h1 style='text-align: center; color: #BFDAF7; font-size: 20px; text-decoration-line:'>BIM Levels</h1>",unsafe_allow_html=True)
     st.image(C_pic_read)    
+with col3:
+    st.markdown("<h1 style='text-align: center; color: #BFDAF7; font-size: 20px; text-decoration-line:'>BIM IMPLEMENTATION SERVICES</h1>",unsafe_allow_html=True)
+    st.image(D_pic_read)     
