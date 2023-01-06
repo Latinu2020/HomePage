@@ -15,7 +15,7 @@ st.markdown("----")
 st.title("# Skill")
 st.markdown("----")
 
-col1,col2=st.columns(2)
+col1,col2=st.columns(2,gap="large")
 with col1:
     st.subheader("UDEMY")
     st.image(udemy_pic_read, width=350)
@@ -39,7 +39,7 @@ with col2:
         -Advanced Certified Professional- Validates more advanced skills, including complex workflow and design challenges. 
         Designed for students seeking a competitive advantage in a specific product area.
 
-        
+
     """)
 st.header("My Certification")
 st.markdown("----")   
