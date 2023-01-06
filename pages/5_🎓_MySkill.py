@@ -21,22 +21,19 @@ with col1:
     container1.subheader("UDEMY")
     container1.image(udemy_pic_read, width=400)
     container1.markdown("""<span style="word-wrap:break-word;">Udemy is a platform that allows instructors to build online courses on their preferred topics. 
-        -Using Udemy's course development tools, instructors can upload videos, source code for developers,
+        Using Udemy's course development tools, instructors can upload videos, source code for developers,
         PowerPoint presentations, PDFs, audio, ZIP files and any other content that learners might find helpful.
-        -Instructors can also engage and interact with users via online discussion boards.</span>""",unsafe_allow_html=True)
+        Instructors can also engage and interact with users via online discussion boards.</span>""",unsafe_allow_html=True)
 with col2:
     container2=st.container()
     container2.subheader("AUTODESK UNIVERSITY")
     container2.image(autodesk_pic_read, width=350)
-    container2.text("""
-        -Autodesk, Inc. is an American multinational software corporation that makes software products and services
-        for the architecture, engineering, construction, manufacturing, media, education, and entertainment industries.
-        -Autodesk offers certificates in two categories: Autodesk Certified User and Advanced Certified Professional.
-        -Autodesk Certified User- Verifies entry-level skills in key Autodesk products. 
+    container2.markdown("""<span style="word-wrap:break-word;">Autodesk, Inc. is an American multinational software corporation that makes software products and services
+        for the architecture, engineering, construction, manufacturing, media, education, and entertainment industries.Autodesk offers certificates in two categories: Autodesk Certified User and Advanced Certified Professional.
+        Autodesk Certified User- Verifies entry-level skills in key Autodesk products. 
         Designed for students and instructors who wish to demonstrate basic proficiency. 
         Curriculum, courseware, and exams offered for independent study or institutional integration.
-        -Advanced Certified Professional- Validates more advanced skills, including complex workflow and design challenges. 
-        Designed for students seeking a competitive advantage in a specific product area.
-    """)
+        Advanced Certified Professional- Validates more advanced skills, including complex workflow and design challenges. 
+        Designed for students seeking a competitive advantage in a specific product area.</span>""",unsafe_allow_html=True)
 st.header("My Certification")
 st.markdown("----")   
