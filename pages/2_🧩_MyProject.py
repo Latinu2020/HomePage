@@ -2,9 +2,5 @@ import streamlit as st
 
 st.set_page_config(page_title="My Project", page_icon="📈")
 
-st.markdown("# My Project")
-st.write(
-    """This demo illustrates a combination of plotting and animation with
-Streamlit. We're generating a bunch of random numbers in a loop for around
-5 seconds. Enjoy!"""
-)
+"""### My Project"""
+st.markdown("![Alt Text](https://media.giphy.com/media/fixyBa6ainp5yUQPhU/giphy.gif)")
