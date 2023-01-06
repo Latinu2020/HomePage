@@ -2,7 +2,7 @@ import streamlit as st
 
 st.set_page_config(page_title="BIM", page_icon="🌍",layout="wide")
 
-st.title("<h1 style='text-align: center; color: #51abcb; font-size: 70px; text-decoration-line:'>BIM</h1>",unsafe_allow_html=True)
+st.title("<h1 style='text-align: center; color: DarkSlateBlue; font-size: 70px; text-decoration-line:'>BIM</h1>",unsafe_allow_html=True)
 st.markdown(
     """Building information modeling (BIM) is a process supported by various tools, technologies and contracts
     involving the generation and management of digital representations of physical and functional characteristics of places. 
