@@ -69,17 +69,17 @@ with col3:
     I rolled actual dice for these, so they're *guaranteed* to
     be random.
     """)
-    expander.image(c1_pic_read,width=350)
-    expander.image(c2_pic_read,width=350)
-    expander.image(c3_pic_read,width=350)
-    expander.image(c4_pic_read,width=350)
-    expander.image(c5_pic_read,width=350)
-    expander.image(c6_pic_read,width=350)
-    expander.image(c7_pic_read,width=350)
-    expander.image(c8_pic_read,width=350)
-    expander.image(c9_pic_read,width=350)
-    expander.image(c10_pic_read,width=350)
-    expander.image(c11_pic_read,width=350)
+    expander.image(c1_pic_read,width=550)
+    expander.image(c2_pic_read,width=550)
+    expander.image(c3_pic_read,width=550)
+    expander.image(c4_pic_read,width=550)
+    expander.image(c5_pic_read,width=550)
+    expander.image(c6_pic_read,width=550)
+    expander.image(c7_pic_read,width=550)
+    expander.image(c8_pic_read,width=550)
+    expander.image(c9_pic_read,width=550)
+    expander.image(c10_pic_read,width=550)
+    expander.image(c11_pic_read,width=550)
 with col4:
     expander = st.expander("See Autodesk Certification")
     expander.write("""
