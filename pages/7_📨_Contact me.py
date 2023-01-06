@@ -4,11 +4,12 @@ import streamlit as st
 st.set_page_config(page_title="Contact me", page_icon="✉️")
 st.title('Contact me')
 
-form = st.form("my_form")
-form.text_input('📩 Your email address')
-form.text_input('📨 Sent email address')
-form.text_input('📬 Subject')
-form.text_area('📝 Description Email')
+contact_form="""
+<form action="https://formsubmit.co/your@email.com" method="POST">
+     <input type="text" name="name" required>
+     <input type="email" name="email" required>
+     <button type="submit">Send</button>
+</form>
+"""
 
-# Now add a submit button to the form:
-form.form_submit_button("Submit")
+st.markdown(contact_form, unsafe_allow_html=True)
