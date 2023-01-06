@@ -16,8 +16,11 @@ unix3_pic= current_dir / "distro" / "netbsd.png"
 unix3_pic_read=Image.open(unix3_pic)
 windows_pic= current_dir / "distro" / "windows.png"
 windows_pic_read=Image.open(windows_pic)
-st.set_page_config(page_title="Distro", page_icon="📊")
+Logo= current_dir / "distro" / "1.gif"
+Logo_read=Image.open(Logo)
 
+st.set_page_config(page_title="Distro", page_icon="📊")
+st.image(Logo_read, width=230)
 st.title("# Distro")
 st.markdown("A set of software components, often open source, that have been packaged into a larger product or component for distribution to end-users.")
 
