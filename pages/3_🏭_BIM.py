@@ -2,8 +2,8 @@ import streamlit as st
 
 st.set_page_config(page_title="BIM", page_icon="🌍")
 
-st.markdown("## BIM")
-st.write(
+st.title("BIM")
+st.markdown(
     """Building information modeling (BIM) is a process supported by various tools, technologies and contracts
     involving the generation and management of digital representations of physical and functional characteristics of places. 
     Building information models (BIMs) are computer files (often but not always in proprietary formats and containing
