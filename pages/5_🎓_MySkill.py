@@ -12,7 +12,7 @@ autodesk_pic= current_dir / "skill" / "autodesk.jpg"
 autodesk_pic_read=Image.open(autodesk_pic)
 st.set_page_config(page_title="Skill", page_icon="📊",layout="wide")
 
-st.markdown("<h1 style='text-align: center; color: red; text-shadow: 2px 2px;'>Skill</h1>",unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: red; text-shadow: 2px 2px; style="font-size:10vw";'>Skill</h1>",unsafe_allow_html=True)
 st.markdown("----")
 
 col1,col2=st.columns(2,gap="large")
