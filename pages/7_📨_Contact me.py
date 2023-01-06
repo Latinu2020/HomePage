@@ -5,7 +5,7 @@ st.set_page_config(page_title="Contact me", page_icon="✉️")
 st.title('Contact me')
 
 contact_form="""
-<form action="https://formsubmit.co/your@email.com" method="POST">
+<form action="https://formsubmit.co/florin_rot@yahoo.com" method="POST">
      <input type="text" name="name" required>
      <input type="email" name="email" required>
      <button type="submit">Send</button>
