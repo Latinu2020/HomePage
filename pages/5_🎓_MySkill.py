@@ -37,6 +37,30 @@ with col2:
 st.header("My Certification")
 st.markdown("----")
 
+####prepared certificate Udemy  
+c1_pic= current_dir / "skill" / "1.jpg"
+c1_pic_read=Image.open(c1_pic)
+c2_pic= current_dir / "skill" / "2.jpg"
+c2_pic_read=Image.open(c2_pic)
+c3_pic= current_dir / "skill" / "3.jpg"
+c3_pic_read=Image.open(c3_pic)
+c4_pic= current_dir / "skill" / "4.jpg"
+c4_pic_read=Image.open(c4_pic)
+c5_pic= current_dir / "skill" / "5.jpg"
+c5_pic_read=Image.open(c5_pic)
+c6_pic= current_dir / "skill" / "6.jpg"
+c6_pic_read=Image.open(c6_pic)
+c7_pic= current_dir / "skill" / "7.jpg"
+c7_pic_read=Image.open(c7_pic)
+c8_pic= current_dir / "skill" / "8.jpg"
+c8_pic_read=Image.open(c8_pic)
+c9_pic= current_dir / "skill" / "9.jpg"
+c9_pic_read=Image.open(c9_pic)
+c10_pic= current_dir / "skill" / "10.jpg"
+c10_pic_read=Image.open(c10_pic)
+c11_pic= current_dir / "skill" / "11.jpg"
+c11_pic_read=Image.open(c11_pic)
+
 col3,col4=st.columns(2,gap="large")
 with col3:
     expander = st.expander("See Udemy Certification")
@@ -45,7 +69,17 @@ with col3:
     I rolled actual dice for these, so they're *guaranteed* to
     be random.
     """)
-    expander.image("https://static.streamlit.io/examples/dice.jpg")
+    expander.image(c1_pic_read,width=150)
+    expander.image(c2_pic_read,width=150)
+    expander.image(c3_pic_read,width=150)
+    expander.image(c4_pic_read,width=150)
+    expander.image(c5_pic_read,width=150)
+    expander.image(c6_pic_read,width=150)
+    expander.image(c7_pic_read,width=150)
+    expander.image(c8_pic_read,width=150)
+    expander.image(c9_pic_read,width=150)
+    expander.image(c10_pic_read,width=150)
+    expander.image(c11_pic_read,width=150)
 with col4:
     expander = st.expander("See Autodesk Certification")
     expander.write("""
@@ -53,4 +87,5 @@ with col4:
     I rolled actual dice for these, so they're *guaranteed* to
     be random.
     """)
-    expander.image("https://static.streamlit.io/examples/dice.jpg")          
+    expander.image("https://static.streamlit.io/examples/dice.jpg") 
+           
