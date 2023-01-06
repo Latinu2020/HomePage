@@ -17,10 +17,10 @@ contact_form="""
 
 st.markdown(contact_form, unsafe_allow_html=True)
 
-#use local css File
+# Use Local CSS File
 def local_css(file_name):
     with open(file_name) as f:
-        st.markdown(f"<style>{f.read()}</style", unsafe_allow_html=True)
+        st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
-local_css("style/style.css")        
 
+local_css("style/style.css")
