@@ -1,17 +1,15 @@
-from pathlib import Path
-import streamlit as st
+import streamlit as st  # pip install streamlit
+
+st.header(":mailbox: Get In Touch With Me!")
 
 
-st.set_page_config(page_title="Contact me", page_icon="✉️")
-st.title('Contact me')
-
-contact_form="""
+contact_form = """
 <form action="https://formsubmit.co/florin_rot@yahoo.com" method="POST">
-    <input type="hidden" name="_captcha" value="false">
-    <input type="text" name="name" placeholder="Your name" required>
-    <input type="email" name="email" placeholder="Your email" required>
-    <textarea name="message" placeholder="Your message here"></textarea>
-    <button type="submit">Send</button>
+     <input type="hidden" name="_captcha" value="false">
+     <input type="text" name="name" placeholder="Your name" required>
+     <input type="email" name="email" placeholder="Your email" required>
+     <textarea name="message" placeholder="Your message here"></textarea>
+     <button type="submit">Send</button>
 </form>
 """
 
