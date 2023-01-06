@@ -18,7 +18,8 @@ windows_pic= current_dir / "distro" / "windows.png"
 windows_pic_read=Image.open(windows_pic)
 
 st.set_page_config(page_title="Distro", page_icon="📊")
-
+"""### My Project"""
+st.markdown("![Alt Text](https://media.giphy.com/media/LR5ZBwZHv02lmpVoEU/giphy-downsized-large.gif)")
 st.title("# Distro")
 st.markdown("A set of software components, often open source, that have been packaged into a larger product or component for distribution to end-users.")
 
