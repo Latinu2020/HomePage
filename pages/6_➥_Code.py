@@ -8,3 +8,5 @@ st.write(
 (Data courtesy of the [UN Data Explorer](http://data.un.org/Explorer.aspx).)"""
 )
 
+"""### gif from url"""
+st.markdown("![Alt Text](https://media.giphy.com/media/7FrOU9tPbgAZtxV5mb/giphy-downsized-large.gif)")
