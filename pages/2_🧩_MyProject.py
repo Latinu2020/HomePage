@@ -4,23 +4,7 @@ st.set_page_config(page_title="My Project", page_icon="📈")
 
 
 html_page="""
-<head>
-<meta charset="utf-8">
-<title>Effect of CSS Padding on Element Box Size</title>
-<style>
-    div {
-        width: 100%;
-        padding: 25px;
-        background: violet;
-    }
-</style>
-</head>
-<body>
-    <div>
-        <h1>This is a DIV Box</h1>
-    </div>
-    <p><strong>Notice</strong>, the scrollbar at the bottom of the viewport.</p>
-</body>
+<h1 style="border:2px solid Tomato; text-align: center; font-family: Arial;">Hello World</h1>
 """
 
 
