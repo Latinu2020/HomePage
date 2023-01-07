@@ -4,7 +4,7 @@ st.set_page_config(page_title="My Project", page_icon="📈")
 
 
 html_page="""
-<h1 style="border:2px solid Tomato;">Hello World</h1>
+<h1 style="border:2px solid Tomato; text-align: center;">Hello World</h1>
 """
 
 
