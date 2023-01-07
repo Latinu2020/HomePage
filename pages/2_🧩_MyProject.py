@@ -4,6 +4,7 @@ st.set_page_config(page_title="My Project", page_icon="📈")
 
 
 html_page="""
+<div style="width: 300px; padding: 25px;"</div>
 <h1 style="border:2px solid Tomato; text-align: center; font-family: Arial; background-color: blue;">Hello World</h1>
 """
 
