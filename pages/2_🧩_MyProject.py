@@ -5,7 +5,7 @@ st.set_page_config(page_title="My Project", page_icon="📈")
 
 html_page="""
 <div style="width: 600px; padding: 50px;"</div>
-<h1 style="border:2px solid Tomato; text-align: center; font-family: Arial; background-color: blue;">Hello World</h1>
+<h1 style="border:2px solid Tomato; border-radius: 10px; text-align: center; font-family: Arial; background-color: blue;">Hello World</h1>
 """
 
 
