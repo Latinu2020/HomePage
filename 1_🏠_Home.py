@@ -45,12 +45,10 @@ profile_pic=Image.open(profile_pic)
 
 ######--hero section
 
-col1,col2,col3=st.columns(3)
+col1,col2=st.columns(2)
 with col1:
-    st.markdown("")
-with col2:
     st.image(profile_pic, width=230)
-with col3:
+with col2:
     st.title(NAME)
     st.write(DESCRIPTION) 
     st.download_button(
