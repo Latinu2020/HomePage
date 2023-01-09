@@ -16,7 +16,7 @@ html_page="""
 <h1 style="border:3px solid Tomato; border-radius: 16px; text-align: center; text-shadow: 2px 2px 5px red; font-family: Arial;">  Code</h1>
 """
 st.markdown(html_page.format(),unsafe_allow_html=True)
-
+st.markdown("----")
 st.image(logo_pic_read)
 
 st.markdown("![Alt Text](https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif)")
