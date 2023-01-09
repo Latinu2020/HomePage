@@ -44,7 +44,12 @@ with open(resume_file, "rb") as pdf_file:
 profile_pic=Image.open(profile_pic)
 
 ######--hero section
-
+html_page="""
+<div style="width: 600px; padding: 50px;"</div>
+<h1 style="border:3px solid Tomato; border-radius: 16px; text-align: center; text-shadow: 2px 2px 5px red; font-family: Arial;">Welcome</h1>
+"""
+st.markdown(html_page.format(),unsafe_allow_html=True)
+st.markdown("----")
 col1,col2=st.columns(2)
 with col1:
     st.image(profile_pic, width=230)
