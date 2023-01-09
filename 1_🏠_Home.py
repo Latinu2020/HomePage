@@ -33,7 +33,7 @@ PROJECTS={
     "✔️ BIM Workflows":"https://latinu2020-homepage-1--home-csvkf3.streamlit.app/BIM"
 }
 
-st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
+st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON,layout="wide")
 
 #--LOAD CSS, PDF & PROFIL PIC
 
