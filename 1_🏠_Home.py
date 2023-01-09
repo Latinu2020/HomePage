@@ -15,7 +15,14 @@ PAGE_TITLE ="DIGITAL CV | FLORIN ROTARU"
 PAGE_ICON=":wave:"
 NAME="FLORIN ROTARU"
 DESCRIPTION= """
-BIM Specialist, assisting enterpries.
+Mr. Rotaru has a BSc Degree in Mechanical Engineering, with a Diploma for Oil Field Equipment. He
+has over 10 years of experience at mechanical engineering, detailed designer and CAD. These skills
+have been effectively used on many projects while executing. He uses his knowledge and experience
+to ensure that each project is performed on time, within budget, and completed in a high-quality
+manner to the satisfaction of the company for the feasibility studies, proposals and projects executed
+in the office.
+He currently manages software for each project in BIM/CAD department for performed on time and
+give supports for the teams in the project
 """
 EMAIL = "florin_rot@yahoo.com"
 SOCIAL_MEDIA= {
