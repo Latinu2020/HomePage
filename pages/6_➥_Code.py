@@ -15,4 +15,4 @@ st.set_page_config(page_title="CODE", page_icon="📊")
 st.markdown("![Alt Text](https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif)")
 
 
-st.image(logo_pic_read, width=100)
+st.image(logo_pic_read)
