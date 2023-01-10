@@ -9,6 +9,7 @@ current_dir= Path(__file__).parent if "__file__"in locals() else Path.cwd()
 css_file=current_dir / "styles" / "main.css"
 resume_file = current_dir / "assets"/ "CV.pdf"
 profile_pic= current_dir / "assets" / "profile-pic.png"
+wall_pic= current_dir / "assets" / "Wall.jpg"
 
 ####---General Settings---
 PAGE_TITLE ="DIGITAL CV | FLORIN ROTARU"
@@ -42,11 +43,12 @@ with open(css_file) as f:
 with open(resume_file, "rb") as pdf_file:
     PDFbyte=pdf_file.read()
 profile_pic=Image.open(profile_pic)
+wall_pic=Image.open(wall_pic)
 
 ######--hero section
 html_page="""
 <div style="width: 1050px; padding: 70px;"</div>
-<h1 style="text-align: center; color: white; "background-image: url("Wall.jpg"); text-shadow: 2px 2px 4px #000000; font-family: Arial;">👍Welcome</h1>
+<h1 style="text-align: center; color: white; "background-image: url(wall_pic); text-shadow: 2px 2px 4px #000000; font-family: Arial;">👍Welcome</h1>
 
 """
 st.markdown(html_page.format(),unsafe_allow_html=True)
