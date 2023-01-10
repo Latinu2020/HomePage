@@ -75,7 +75,7 @@ for index, (platform,link) in enumerate(SOCIAL_MEDIA.items()):
 
 #---Experience & Qualifications--
 st.write("#")
-st.subheader("Experience & Qualifications")
+st.subheader("✍Experience & Qualifications")
 st.markdown("----")
 st.write(
      """
@@ -86,7 +86,7 @@ st.write(
 )
 #---SKILLS--
 st.write("#")
-st.subheader("Hard Skills")
+st.subheader("🏆Hard Skills")
 st.markdown("----")
 st.write(
      """
