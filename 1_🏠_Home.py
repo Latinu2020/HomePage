@@ -46,8 +46,8 @@ profile_pic=Image.open(profile_pic)
 ######--hero section
 html_page="""
 <div style="width: 1050px; padding: 70px;"</div>
-<h1 style="text-align: center; color: white; text-shadow: 2px 2px 4px #000000; font-family: Arial;">👍Welcome</h1>
-<body style="background-image: url("Wall.jpg");</body>
+<h1 style="text-align: center; color: white; "background-image: url("Wall.jpg"); text-shadow: 2px 2px 4px #000000; font-family: Arial;">👍Welcome</h1>
+
 """
 st.markdown(html_page.format(),unsafe_allow_html=True)
 st.markdown("----")
