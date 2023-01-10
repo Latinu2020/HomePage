@@ -63,7 +63,7 @@ with col2:
         file_name=resume_file.name,
         mime="application/octet-stream"
     )
-    st.write("📨",EMAIL) 
+    st.write("✉",EMAIL) 
     st.markdown("----")
 
 ####--SOCIAL LINKS--
@@ -74,18 +74,18 @@ for index, (platform,link) in enumerate(SOCIAL_MEDIA.items()):
 
 #---Experience & Qualifications--
 st.write("#")
-st.subheader("✍Experience & Qualifications")
-st.markdown("----")
+st.subheader("✒Experience & Qualifications")
+st.markdown("✔----")
 st.write(
      """
-    - ###########################
-    - ###########222222
-    - ##############################333
+    -✓ ###########################
+    -✓###########222222
+    -✓##############################333
     """
 )
 #---SKILLS--
 st.write("#")
-st.subheader("🏆Hard Skills")
+st.subheader("🏆♾️Hard Skills")
 st.markdown("----")
 st.write(
      """
