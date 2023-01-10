@@ -46,7 +46,7 @@ profile_pic=Image.open(profile_pic)
 
 ######--hero section
 html_page="""
-<div style="width: 1050px; padding: 0px;"</div>
+<div style="width: 1050px; padding-top:3rem;"</div>
 <h1 style="text-align: center; text-indent: 70px; color: white; font-size: 80px; text-shadow: 10px 10px 20px #000000; font-family: "Fantasy">Welcome</h1>
 """
 st.markdown(html_page.format(),unsafe_allow_html=True)
