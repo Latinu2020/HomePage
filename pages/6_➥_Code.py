@@ -17,7 +17,7 @@ html_page="""
 
 col1, col2, col3 = st.columns(3)
 with col1:
-    st.text("""
+    st.success("""
 _♥__♥_____♥__♥___ Put This
 _♥_____♥_♥_____♥__ Heart
 _♥______♥______♥__ On Your
