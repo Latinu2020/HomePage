@@ -12,7 +12,7 @@ logo_pic_read=Image.open(logo_pic)
 st.set_page_config(page_title="CODE", page_icon="📊",layout="wide")
 html_page="""
 <div style="width: 600px; padding: 50px;"</div>
-<h1 style="border:3px solid Tomato; border-radius: 16px; text-align: center; text-shadow: 2px 2px 5px red; font-family: Arial;">  Code</h1>
+<h1 style="text-align: center; text-shadow: 2px 2px 5px red; font-family: Arial;">  Code</h1>
 """
 
 col1, col2, col3 = st.columns(3)
