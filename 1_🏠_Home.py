@@ -16,14 +16,13 @@ PAGE_TITLE ="DIGITAL CV | FLORIN ROTARU"
 PAGE_ICON=":wave:"
 NAME="FLORIN ROTARU"
 DESCRIPTION= """
-Mr. Rotaru has a BSc Degree in Mechanical Engineering, with a Diploma for Oil Field Equipment. He
-has over 10 years of experience at mechanical engineering, detailed designer and CAD. These skills
-have been effectively used on many projects while executing. He uses his knowledge and experience
-to ensure that each project is performed on time, within budget, and completed in a high-quality
-manner to the satisfaction of the company for the feasibility studies, proposals and projects executed
-in the office.
-He currently manages software for each project in BIM/CAD department for performed on time and
-give supports for the teams in the project
+BIM/Digital Engineering specialist and professionally qualified Mechanical Engineer with immense 6+year
+experience in Revit, Plant3D, Advance Steel and Mechanical modeling, Scan to BIM, Coordination and Design optimization,
+Multiple Projects Co-ordination including High-Rise, Commercial Buildings and Process Plant Layout and Piping Design. 
+I have achieved high productivity and time efficiency in BIM projects simultaneously using Revit, Autocad Plant3D and Navisworks for clash detection. 
+Being a BIM practitioner and having a solid background in BIM/VDC with sound knowledge in Revit, Autocad Plant3D and Navisworks,
+I have had opportunities to render my services to take the project from a nascent stage to develop fully from design
+to construction set of documentation through various necessary stages with complete Co-ordination and management.
 """
 EMAIL = "florin_rot@yahoo.com"
 SOCIAL_MEDIA= {
