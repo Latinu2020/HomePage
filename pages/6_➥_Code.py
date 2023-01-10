@@ -35,7 +35,6 @@ with col3:
     st.image(logo_pic_read)
 
 st.markdown("----")
-st.success('This is a success message!', icon="✅")
 st.markdown("![Alt Text](https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif)")
 st.markdown(""" <style> .font {
 font-size:50px ; font-family: 'Cooper Black'; color: #FF9633;} 
@@ -62,4 +61,29 @@ homepage_table = """
 
 """
 st.markdown(homepage_table,unsafe_allow_html=True)
+
+legend = """
+                <style>
+                .bdot {{
+                height: 15px;
+                width: 15px;
+                background-color: Blue;
+                border-radius: 50%;
+                display: inline-block;
+                }}
+                .gdot {{
+                height: 15px;
+                width: 15px;
+                background-color: #4DFF00;
+                border-radius: 50%;
+                display: inline-block;
+                }}
+                </style>
+                <div style="text-align:left">
+                <h3>Legend</h3>
+                <span class="bdot"></span>  {} - {}<br>
+                <span class="gdot"></span>  &#62;{} - {}
+                </div>
+                """.format(round(min_val), round((max_val - min_val) / 2), round((max_val - min_val) / 2), round(max_val))
+            st.markdown(legend, unsafe_allow_html=True)
 
