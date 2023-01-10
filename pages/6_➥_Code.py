@@ -37,5 +37,8 @@ with col3:
 st.markdown("----")
 st.success('This is a success message!', icon="✅")
 st.markdown("![Alt Text](https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif)")
-@st.cache(suppress_st_warning=True, allow_output_mutation=True)
+st.markdown(""" <style> .font {
+font-size:50px ; font-family: 'Cooper Black'; color: #FF9633;} 
+</style> """, unsafe_allow_html=True)
+st.markdown('<p class="font">Guess the object Names</p>', unsafe_allow_html=True)
 
