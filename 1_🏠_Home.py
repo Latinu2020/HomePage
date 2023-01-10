@@ -28,7 +28,7 @@ give supports for the teams in the project
 EMAIL = "florin_rot@yahoo.com"
 SOCIAL_MEDIA= {
     "YouTube": "https://www.youtube.com/@florinr8921",
-    "<i class="fi fi-brands-linkedin"></i>LinkedIn": "https://www.linkedin.com/"
+    "<i class="fi fi-brands-linkedin"></i>;LinkedIn": "https://www.linkedin.com/"
 }
 PROJECTS={
     "✔️ BIM Workflows":"https://latinu2020-homepage-1--home-csvkf3.streamlit.app/BIM"
