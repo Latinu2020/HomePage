@@ -84,6 +84,7 @@ legend = """
                 <span class="bdot"></span>  {} - {}<br>
                 <span class="gdot"></span>  &#62;{} - {}
                 </div>
-                """.format(round(min_val), round((max_val - min_val) / 2), round((max_val - min_val) / 2), round(max_val))
-            st.markdown(legend, unsafe_allow_html=True)
+                """
+
+st.markdown(legend, unsafe_allow_html=True)
 
