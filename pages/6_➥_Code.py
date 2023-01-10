@@ -62,29 +62,4 @@ homepage_table = """
 """
 st.markdown(homepage_table,unsafe_allow_html=True)
 
-legend = """
-                <style>
-                .bdot {{
-                height: 15px;
-                width: 15px;
-                background-color: Blue;
-                border-radius: 50%;
-                display: inline-block;
-                }}
-                .gdot {{
-                height: 15px;
-                width: 15px;
-                background-color: #4DFF00;
-                border-radius: 50%;
-                display: inline-block;
-                }}
-                </style>
-                <div style="text-align:left">
-                <h3>Legend</h3>
-                <span class="bdot"></span>  {} - {}<br>
-                <span class="gdot"></span>  &#62;{} - {}
-                </div>
-                """
-
-st.markdown(legend, unsafe_allow_html=True)
 
