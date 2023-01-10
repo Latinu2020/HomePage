@@ -88,9 +88,9 @@ st.write("#")
 st.subheader("Hard Skills")
 st.write(
      """
-    - ✅###############11111111111111111111111111
-    - ✅###########222222222222222222222222222222
-    - ✅##############################33333333333
+    - ✅Team player/leader capable of manage multidiscipline modellers and drafters. Recently working as project BIM manager on multi-million-dollar job and managing modellers from around Australia and overseas
+    - ✅Define workflow, create standard, implementation standards, manage the resources, estimate time. Capable to provide training locally or remotely for implementation of standards. Great communication skills
+    - ✅Passionate about BIM implementation not only in modelling but also in assess management, cost estimate and its impact on design procedure
     """
 )
 
