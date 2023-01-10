@@ -88,11 +88,11 @@ st.write("#")
 st.subheader("Hard Skills")
 st.write(
      """
-    - ✅Team player/leader capable of manage multidiscipline modellers and drafters. Recently working as project BIM manager on multi-million-dollar job and managing modellers from around Australia and overseas
-    - ✅Define workflow, create standard, implementation standards, manage the resources, estimate time. Capable to provide training locally or remotely for implementation of standards. Great communication skills
-    - ✅Passionate about BIM implementation not only in modelling but also in assess management, cost estimate and its impact on design procedure
-    - ✅AutoCAD Plant 3D, Revit and Civil 3D customisation, utilizing programming to reduce manual works and increase productivity, use Python to create parametric catalogue items
-    - ✅Knowing how to use and understanding the pros and cons of many software including Plant 3D, Civil 3D, 12D, Revit, Inventor, Solidworks, infraworks and Navisworks. Able to create templates, parametric catalogue items, families for design software
+    - 🏅Team player/leader capable of manage multidiscipline modellers and drafters. Recently working as project BIM manager on multidiscipline projects and managing modellers from around Australia and overseas
+    - 🏅Define workflow, create standard, implementation standards, manage the resources, estimate time. Capable to provide training locally or remotely for implementation of standards. Great communication skills
+    - 🏅Passionate about BIM implementation not only in modelling but also in assess management, cost estimate and its impact on design procedure
+    - 🏅AutoCAD Plant 3D, Revit and Civil 3D customisation, utilizing programming to reduce manual works and increase productivity, use Python to create parametric catalogue items
+    - 🏅Knowing how to use and understanding the pros and cons of many software including Plant 3D, Civil 3D, Revit, Inventor, Solidworks, Infraworks and Navisworks. Able to create templates, parametric catalogue items, families for design software
     """
 )
 
