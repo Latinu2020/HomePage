@@ -17,7 +17,7 @@ html_page="""
 
 col1, col2, col3 = st.columns(3)
 with col1:
-    st.success("""
+    st.text("""
 _♥__♥_____♥__♥___ Put This
 _♥_____♥_♥_____♥__ Heart
 _♥______♥______♥__ On Your
@@ -34,7 +34,7 @@ with col2:
 with col3:
     st.image(logo_pic_read)
 
-st.markdown("----")
+st.success("----")
 st.success('This is a success message!', icon="✅")
 st.markdown("![Alt Text](https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif)")
 
