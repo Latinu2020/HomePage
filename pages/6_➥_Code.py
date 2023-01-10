@@ -34,8 +34,8 @@ with col2:
 with col3:
     st.image(logo_pic_read)
 
-st.success("----")
+st.markdown("----")
 st.success('This is a success message!', icon="✅")
 st.markdown("![Alt Text](https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif)")
-
+@st.cache(suppress_st_warning=True, allow_output_mutation=True)
 
