@@ -63,5 +63,5 @@ homepage_table = """
 </tr>
 
 """
-st.markdown(homepage_table)
+st.markdown(homepage_table,unsafe_allow_html=True)
 
