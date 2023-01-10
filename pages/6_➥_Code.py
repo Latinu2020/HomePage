@@ -35,7 +35,7 @@ with col3:
     st.image(logo_pic_read)
 
 st.markdown("----")
-
+st.success('This is a success message!', icon="✅")
 st.markdown("![Alt Text](https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif)")
 
 
