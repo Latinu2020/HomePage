@@ -65,7 +65,7 @@ st.markdown(homepage_table,unsafe_allow_html=True)
 #### Reduce header
 reduce_header_height_style = """
     <style>
-        div.block-container {padding-top:5rem;}
+        div.block-container {padding-top:3rem;}
     </style>
 """
 st.markdown(reduce_header_height_style, unsafe_allow_html=True)
