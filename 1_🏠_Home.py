@@ -66,6 +66,7 @@ with col2:
         mime="application/octet-stream"
     )
     st.write("📨",EMAIL) 
+    st.markdown("----")
 
 ####--SOCIAL LINKS--
 st.write("#")
@@ -76,6 +77,7 @@ for index, (platform,link) in enumerate(SOCIAL_MEDIA.items()):
 #---Experience & Qualifications--
 st.write("#")
 st.subheader("Experience & Qualifications")
+st.markdown("----")
 st.write(
      """
     - ###########################
@@ -86,6 +88,7 @@ st.write(
 #---SKILLS--
 st.write("#")
 st.subheader("Hard Skills")
+st.markdown("----")
 st.write(
      """
     - 🏅Team player/leader capable of manage multidiscipline modellers and drafters. Recently working as project BIM manager on multidiscipline projects and managing modellers from around Australia and overseas
