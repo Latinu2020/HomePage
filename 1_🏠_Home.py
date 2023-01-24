@@ -73,12 +73,12 @@ with col2:
     st.title(NAME)
     st.markdown(DESCRIPTION.format(),unsafe_allow_html=True) 
     st.download_button(
-        label="📂 Download Resume",
+        label="📤 Download Resume",
         data=PDFbyte,
         file_name=resume_file.name,
         mime="application/octet-stream"
     )
-    st.write("✉",EMAIL) 
+    st.write("📨",EMAIL) 
     st.markdown("----")
 
 ####--SOCIAL LINKS--
