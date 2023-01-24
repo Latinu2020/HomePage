@@ -14,7 +14,6 @@ html_page="""
 <div style="width: 800px;"</div>
 <h1 style="text-align: center; text-indent: 100px; color: white; font-size: 80px; text-shadow: 10px 10px 20px #000000; font-family: "Fantasy">CODE</h1>
 """
-st.markdown(html_page.format(),unsafe_allow_html=True)
 
 col1, col2, col3 = st.columns(3)
 with col1:
@@ -37,31 +36,7 @@ with col3:
 
 st.markdown("----")
 st.markdown("![Alt Text](https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif)")
-st.markdown(""" <style> .font {
-font-size:50px ; font-family: 'Cooper Black'; color: #FF9633;} 
-</style> """, unsafe_allow_html=True)
-st.markdown('<p class="font">Guess the object Names</p>', unsafe_allow_html=True)
-homepage_table = """
 
-<p>\n</p>
-<p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n</p>
-<table id="T_e352c_" style="height: 152px; width: 467.281px;">
-<thead>
-<tr>
-<th class="col_heading level0 col0" style="width: 56px;">Status</th>
-<th class="col_heading level0 col1" style="width: 219px;">Product</th>
-<th class="col_heading level0 col2" style="width: 71px;">Impact</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td id="T_e352c_row0_col0" class="data row0 col0" style="width: 56px; text-align: center;">⚠️</td>
-<td id="T_e352c_row0_col1" class="data row0 col1" style="width: 219px; text-align: left;">Product A;</td>
-<td id="T_e352c_row0_col2" class="data row0 col2" style="width: 71px; text-align: left;">&euro; 1.520</td>
-</tr>
-
-"""
-st.markdown(homepage_table,unsafe_allow_html=True)
 
 #### Reduce header
 reduce_header_height_style = """
