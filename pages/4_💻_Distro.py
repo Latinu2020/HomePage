@@ -18,7 +18,11 @@ windows_pic= current_dir / "distro" / "windows.png"
 windows_pic_read=Image.open(windows_pic)
 
 st.set_page_config(page_title="Distro", page_icon="📊")
-st.title("# Distro")
+html_page="""
+<div style="width: 800px;"</div>
+<h1 style="text-align: center; text-indent: 100px; color: white; font-size: 80px; text-shadow: 10px 10px 20px #000000; font-family: "Fantasy">DISTRO</h1>
+"""
+st.markdown(html_page.format(),unsafe_allow_html=True)
 st.markdown("A set of software components, often open source, that have been packaged into a larger product or component for distribution to end-users.")
 
 col1,col2,col3,col4,col5=st.columns(5)
