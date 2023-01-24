@@ -32,7 +32,7 @@ EXPERIENCE="""
 """
 SKILL="""
 <div style="width: 1400px; padding: 0px;"</div>
-<h1 style="text-align: left; text-indent: 70px; color: white; font-size: 40px; text-shadow: 5px 5px 10px #000000; font-family: "Fantasy">
+<h1 style="text-align: left; text-indent: 60px; color: white; font-size: 40px; text-shadow: 5px 5px 10px #000000; font-family: "Fantasy">
 
 🏅Team player/leader capable of manage multidiscipline modellers and drafters. Recently working as project BIM manager on multidiscipline projects and managing modellers from around Australia and overseas
 
@@ -45,6 +45,7 @@ SKILL="""
 🏅Knowing how to use and understanding the pros and cons of many software including Plant 3D, Civil 3D, Revit, Inventor, Solidworks, Infraworks and Navisworks. Able to create templates, parametric catalogue items, families for design software
 
 </h1>
+
 """
 DESCRIPTION="""
 <div style="width: 800px; padding: 0px;"</div>
