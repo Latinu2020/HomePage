@@ -20,8 +20,11 @@ EXPERIENCE="""
 <h1 style="text-align: left; text-indent: 70px; color: white; font-size: 50px; text-shadow: 5px 5px 10px #000000; font-family: "Fantasy">
 
 ✅ BIM DOCUMENTATION
+
 ✅ UNIX & LINUX ADMINISTRATION
+
 ✅ CAD STACK TECHNOLOGIES
+
 ✅ DYNAMO & PYTHON
 
 </h1>
