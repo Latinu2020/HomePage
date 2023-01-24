@@ -13,8 +13,8 @@ autodesk_pic_read=Image.open(autodesk_pic)
 st.set_page_config(page_title="Skill", page_icon="📊",layout="wide")
 
 html_page="""
-<div style="width: 600px; padding: 50px;"</div>
-<h1 style="border:3px solid Tomato; border-radius: 16px; text-align: center; text-shadow: 2px 2px 5px red; font-family: Arial;">  My Skill</h1>
+<div style="width: 800px;"</div>
+<h1 style="text-align: center; text-indent: 100px; color: white; font-size: 80px; text-shadow: 10px 10px 20px #000000; font-family: "Fantasy">My Skill</h1>
 """
 st.markdown(html_page.format(),unsafe_allow_html=True)
 
