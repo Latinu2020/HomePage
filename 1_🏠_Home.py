@@ -16,7 +16,7 @@ PAGE_TITLE ="DIGITAL CV | FLORIN ROTARU"
 PAGE_ICON=":wave:"
 NAME="FLORIN ROTARU"
 DESCRIPTION="""
-<div style="width: 1000px; padding: 0px;"</div>
+<div style="width: 800px; padding: 0px;"</div>
 <h1 style="text-align: left; text-indent: 20px; color: white; font-size: 10px; text-shadow: 5px 5px 10px #000000; font-family: "Fantasy">
 
 💎BIM/Digital Engineering specialist and professionally qualified Mechanical Engineer with immense 6+year
