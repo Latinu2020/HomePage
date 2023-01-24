@@ -61,7 +61,7 @@ with col1:
     st.image(profile_pic, width=200)
 with col2:
     st.title(NAME)
-    st.write(DESCRIPTION) 
+    st.header(DESCRIPTION) 
     st.download_button(
         label="📂 Download Resume",
         data=PDFbyte,
