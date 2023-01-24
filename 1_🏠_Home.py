@@ -93,9 +93,10 @@ st.subheader("✒Experience & Qualifications")
 st.markdown("----")
 st.write(
      """
-    -✓ ###########################
-    -✓###########222222
-    -✓##############################333
+    -✅ BIM DOCUMENTATION
+    -✅ UNIX & LINUX ADMINISTRATION
+    -✅ CAD STACK TECHNOLOGIES
+    -✅ DYNAMO & PYTHON
     """
 )
 #---SKILLS--
