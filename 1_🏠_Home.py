@@ -94,7 +94,7 @@ profile_pic=Image.open(profile_pic)
 ######--hero section
 html_page="""
 <div style="width: 800px;"</div>
-<h1 style="text-align: center; text-indent: 70px; color: white; font-size: 80px; text-shadow: 10px 10px 20px #000000; font-family: "Fantasy">Welcome</h1>
+<h1 style="text-align: center; text-indent: 100px; color: white; font-size: 80px; text-shadow: 10px 10px 20px #000000; font-family: "Fantasy">Welcome</h1>
 """
 st.markdown(html_page.format(),unsafe_allow_html=True)
 st.markdown("----")
@@ -141,10 +141,10 @@ st.markdown(SKILL.format(),unsafe_allow_html=True)
 #### Reduce header
 reduce_header_height_style = """
     <style>
-        div.block-container {padding-top:3rem;}
-        div.block-container {padding-bottom:3rem;}
-        div.block-container {padding-left:3rem;}
-        div.block-container {padding-right:3rem;}
+        div.block-container {padding-top:2rem;}
+        div.block-container {padding-bottom:2rem;}
+        div.block-container {padding-left:2rem;}
+        div.block-container {padding-right:2rem;}
     </style>
 """
 st.markdown(reduce_header_height_style, unsafe_allow_html=True)
