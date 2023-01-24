@@ -90,7 +90,7 @@ st.write(
 )
 #---SKILLS--
 st.write("#")
-st.subheader("🏆♾️Hard Skills")
+st.subheader("🏆Hard Skills")
 st.markdown("----")
 st.write(
      """
@@ -104,9 +104,9 @@ st.write(
 
 
 ##############--work history
-st.write("#")
-st.subheader("Work History")
-st.write("---")
+#st.write("#")
+#st.subheader("Work History")
+#st.write("---")
 
 ###--job#
 #### Reduce header
