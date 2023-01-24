@@ -15,6 +15,17 @@ profile_pic= current_dir / "assets" / "profile-pic.png"
 PAGE_TITLE ="DIGITAL CV | FLORIN ROTARU"
 PAGE_ICON=":wave:"
 NAME="FLORIN ROTARU"
+EXPERIENCE="""
+<div style="width: 800px; padding: 0px;"</div>
+<h1 style="text-align: left; text-indent: 20px; color: white; font-size: 10px; text-shadow: 5px 5px 10px #000000; font-family: "Fantasy">
+
+    -✅ BIM DOCUMENTATION
+    -✅ UNIX & LINUX ADMINISTRATION
+    -✅ CAD STACK TECHNOLOGIES
+    -✅ DYNAMO & PYTHON
+
+</h1>
+"""
 DESCRIPTION="""
 <div style="width: 800px; padding: 0px;"</div>
 <h1 style="text-align: left; text-indent: 20px; color: white; font-size: 10px; text-shadow: 5px 5px 10px #000000; font-family: "Fantasy">
@@ -89,16 +100,9 @@ for index, (platform,link) in enumerate(SOCIAL_MEDIA.items()):
 
 #---Experience & Qualifications--
 st.write("#")
-st.subheader("✒Experience & Qualifications")
+st.subheader("✒ Personal Experience & Qualifications")
 st.markdown("----")
-st.write(
-     """
-    -✅ BIM DOCUMENTATION
-    -✅ UNIX & LINUX ADMINISTRATION
-    -✅ CAD STACK TECHNOLOGIES
-    -✅ DYNAMO & PYTHON
-    """
-)
+st.markdown(EXPERIENCE.format(),unsafe_allow_html=True)
 #---SKILLS--
 st.write("#")
 st.subheader("🏆Hard Skills")
