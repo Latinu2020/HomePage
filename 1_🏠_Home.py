@@ -17,7 +17,7 @@ PAGE_ICON=":wave:"
 NAME="FLORIN ROTARU"
 EXPERIENCE="""
 <div style="width: 800px; padding: 0px;"</div>
-<h1 style="text-align: left; text-indent: 20px; color: white; font-size: 10px; text-shadow: 5px 5px 10px #000000; font-family: "Fantasy">
+<h1 style="text-align: left; text-indent: 45px; color: white; font-size: 30px; text-shadow: 5px 5px 10px #000000; font-family: "Fantasy">
 
     -✅ BIM DOCUMENTATION
     -✅ UNIX & LINUX ADMINISTRATION
