@@ -77,7 +77,7 @@ and management
 #
 EMAIL = "florin_rot@yahoo.com"
 SOCIAL_MEDIA= {
-    "▶YouTube": "https://www.youtube.com/@florinr8921",
+    "|▶️|YouTube": "https://www.youtube.com/@florinr8921",
     "👔LinkedIn": "https://www.linkedin.com/"
 }
 st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON,layout="wide")
