@@ -17,19 +17,25 @@ PAGE_ICON=":wave:"
 NAME="FLORIN ROTARU"
 DESCRIPTION="""
 <div style="width: 1050px; padding: 0px;"</div>
-<h1 style="text-align: left; text-indent: 50px; color: white; font-size: 25px; text-shadow: 10px 10px 20px #000000; font-family: "Fantasy">
+<h1 style="text-align: left; text-indent: 20px; color: white; font-size: 10px; text-shadow: 5px 5px 10px #000000; font-family: "Fantasy">
+
 💎BIM/Digital Engineering specialist and professionally qualified Mechanical Engineer with immense 6+year
 experience in Revit, Plant3D, Advance Steel and Mechanical modeling, Scan to BIM, Coordination and
 Design optimization
+
 💎Multiple Projects Co-ordination including High-Rise, Commercial Buildings and Process Plant Layout and
 Piping Design.
+
 💎I have achieved high productivity and time efficiency in BIM projects simultaneously using Revit, Autocad
 Plant3D and Navisworks for clash detection.
+
 💎Being a BIM practitioner and having a solid background in BIM/VDC with sound knowledge in Revit,
 Autocad Plant3D and Navisworks
+
 💎I have had opportunities to render my services to take the project from a nascent stage to develop fully
 from design to construction set of documentation through various necessary stages with complete Co-ordination
 and management
+
 </h1>
 """
 #
