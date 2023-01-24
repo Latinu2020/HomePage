@@ -32,7 +32,7 @@ EXPERIENCE="""
 """
 SKILL="""
 <div style="width: 1400px;"</div>
-<h1 style="text-align: left; text-indent: 30px; color: white; font-size: 30px; text-shadow: 5px 5px 10px #000000; font-family: "Fantasy">
+<h1 style="text-align: left; text-indent: 20px; color: white; font-size: 30px; text-shadow: 5px 5px 10px #000000; font-family: "Fantasy">
 
 🏅Team player/leader capable of manage multidiscipline modellers and drafters. 
   Recently working as project BIM manager on multidiscipline projects and managing modellers from around Australia and overseas
