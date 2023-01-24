@@ -30,6 +30,19 @@ EXPERIENCE="""
 </h1>
 
 """
+SKILL="""
+<div style="width: 800px; padding: 0px;"</div>
+<h1 style="text-align: left; text-indent: 70px; color: white; font-size: 50px; text-shadow: 5px 5px 10px #000000; font-family: "Fantasy">
+
+ - 🏅Team player/leader capable of manage multidiscipline modellers and drafters. Recently working as project BIM manager on multidiscipline projects and managing modellers from around Australia and overseas
+    - 🏅Define workflow, create standard, implementation standards, manage the resources, estimate time. Capable to provide training locally or remotely for implementation of standards. Great communication skills
+    - 🏅Passionate about BIM implementation not only in modelling but also in assess management, cost estimate and its impact on design procedure
+    - 🏅AutoCAD Plant 3D, Revit and Civil 3D customisation, utilizing programming to reduce manual works and increase productivity, use Python to create parametric catalogue items
+    - 🏅Knowing how to use and understanding the pros and cons of many software including Plant 3D, Civil 3D, Revit, Inventor, Solidworks, Infraworks and Navisworks. Able to create templates, parametric catalogue items, families for design software
+
+</h1>
+
+"""
 DESCRIPTION="""
 <div style="width: 800px; padding: 0px;"</div>
 <h1 style="text-align: left; text-indent: 20px; color: white; font-size: 10px; text-shadow: 5px 5px 10px #000000; font-family: "Fantasy">
@@ -59,10 +72,6 @@ SOCIAL_MEDIA= {
     "🎬YouTube": "https://www.youtube.com/@florinr8921",
     "👔LinkedIn": "https://www.linkedin.com/"
 }
-PROJECTS={
-    "✔️ BIM Workflows":"https://latinu2020-homepage-1--home-csvkf3.streamlit.app/BIM"
-}
-
 st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON,layout="wide")
 
 #--LOAD CSS, PDF & PROFIL PIC
@@ -111,15 +120,8 @@ st.markdown(EXPERIENCE.format(),unsafe_allow_html=True)
 st.write("#")
 st.subheader("🏆Hard Skills")
 st.markdown("----")
-st.write(
-     """
-    - 🏅Team player/leader capable of manage multidiscipline modellers and drafters. Recently working as project BIM manager on multidiscipline projects and managing modellers from around Australia and overseas
-    - 🏅Define workflow, create standard, implementation standards, manage the resources, estimate time. Capable to provide training locally or remotely for implementation of standards. Great communication skills
-    - 🏅Passionate about BIM implementation not only in modelling but also in assess management, cost estimate and its impact on design procedure
-    - 🏅AutoCAD Plant 3D, Revit and Civil 3D customisation, utilizing programming to reduce manual works and increase productivity, use Python to create parametric catalogue items
-    - 🏅Knowing how to use and understanding the pros and cons of many software including Plant 3D, Civil 3D, Revit, Inventor, Solidworks, Infraworks and Navisworks. Able to create templates, parametric catalogue items, families for design software
-    """
-)
+st.write(SKILL)
+
 
 
 ##############--work history
