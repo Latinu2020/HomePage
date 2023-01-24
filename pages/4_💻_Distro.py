@@ -17,7 +17,7 @@ unix3_pic_read=Image.open(unix3_pic)
 windows_pic= current_dir / "distro" / "windows.png"
 windows_pic_read=Image.open(windows_pic)
 
-st.set_page_config(page_title="Distro", page_icon="📊")
+st.set_page_config(page_title="Distro", page_icon="📊",layout="wide")
 html_page="""
 <div style="width: 800px;"</div>
 <h1 style="text-align: center; text-indent: 100px; color: white; font-size: 80px; text-shadow: 10px 10px 20px #000000; font-family: "Fantasy">DISTRO</h1>
