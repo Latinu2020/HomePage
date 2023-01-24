@@ -120,7 +120,7 @@ st.markdown(EXPERIENCE.format(),unsafe_allow_html=True)
 st.write("#")
 st.subheader("🏆Hard Skills")
 st.markdown("----")
-st.write(SKILL)
+st.markdown(SKILL.format(),unsafe_allow_html=True)
 
 
 
