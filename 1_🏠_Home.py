@@ -17,12 +17,10 @@ PAGE_ICON=":wave:"
 NAME="FLORIN ROTARU"
 DESCRIPTION= """
 BIM/Digital Engineering specialist and professionally qualified Mechanical Engineer with immense 6+year
-experience in Revit, Plant3D, Advance Steel and Mechanical modeling, Scan to BIM, Coordination and Design optimization,
-Multiple Projects Co-ordination including High-Rise, Commercial Buildings and Process Plant Layout and Piping Design. 
-I have achieved high productivity and time efficiency in BIM projects simultaneously using Revit, Autocad Plant3D and Navisworks for clash detection. 
-Being a BIM practitioner and having a solid background in BIM/VDC with sound knowledge in Revit, Autocad Plant3D and Navisworks,
-I have had opportunities to render my services to take the project from a nascent stage to develop fully from design
-to construction set of documentation through various necessary stages with complete Co-ordination and management.
+experience in Revit, Plant3D, Advance Steel and Mechanical modeling, Scan to BIM, Coordination and
+Design optimization
+Multiple Projects Co-ordination including High-Rise, Commercial Buildings and Process Plant Layout and
+Piping Design.
 """
 EMAIL = "florin_rot@yahoo.com"
 SOCIAL_MEDIA= {
