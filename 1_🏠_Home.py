@@ -15,7 +15,9 @@ profile_pic= current_dir / "assets" / "profile-pic.png"
 PAGE_TITLE ="DIGITAL CV | FLORIN ROTARU"
 PAGE_ICON=":wave:"
 NAME="FLORIN ROTARU"
-DESCRIPTION= """
+DESCRIPTION="""
+<div style="width: 1050px; padding: 0px;"</div>
+<h1 style="text-align: left; text-indent: 50px; color: white; font-size: 25px; text-shadow: 10px 10px 20px #000000; font-family: "Fantasy">
 💎BIM/Digital Engineering specialist and professionally qualified Mechanical Engineer with immense 6+year
 experience in Revit, Plant3D, Advance Steel and Mechanical modeling, Scan to BIM, Coordination and
 Design optimization
@@ -28,7 +30,9 @@ Autocad Plant3D and Navisworks
 💎I have had opportunities to render my services to take the project from a nascent stage to develop fully
 from design to construction set of documentation through various necessary stages with complete Co-ordination
 and management
+</h1>
 """
+#
 EMAIL = "florin_rot@yahoo.com"
 SOCIAL_MEDIA= {
     "🎬YouTube": "https://www.youtube.com/@florinr8921",
@@ -61,7 +65,7 @@ with col1:
     st.image(profile_pic, width=200)
 with col2:
     st.title(NAME)
-    st.markdown(DESCRIPTION) 
+    st.markdown(DESCRIPTION.format(),unsafe_allow_html=True) 
     st.download_button(
         label="📂 Download Resume",
         data=PDFbyte,
