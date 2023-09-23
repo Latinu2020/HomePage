@@ -27,7 +27,7 @@ st.markdown("A set of software components, often open source, that have been pac
 
 col1,col2,col3,col4,col5=st.columns(5)
 with col1:
-    st.subheader("LINUX")
+    st.subheader("GNU LINUX")
     st.image(linux_pic_read, width=100)
 with col2:
     st.subheader("FreeBSD")
