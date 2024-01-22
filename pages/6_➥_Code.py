@@ -15,7 +15,7 @@ html_page="""
 <h1 style="text-align: center; text-indent: -40px; color: white; font-size: 80px; text-shadow: 10px 10px 20px #000000; font-family: "Fantasy">CODE</h1>
 """
 
-col1, col2, col3 = st.columns(3)
+col1, col2 = st.columns(2)
 with col1:
     st.text("""
 _♥__♥_____♥__♥___ Put This
@@ -31,8 +31,6 @@ ________♥_________…………….
 """)
 with col2:
     st.markdown(html_page.format(),unsafe_allow_html=True)
-with col3:
-    st.image(logo_pic_read)
 
 st.markdown("----")
 st.markdown("![Alt Text](https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif)")
